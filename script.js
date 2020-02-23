@@ -6,10 +6,10 @@ $("#search").click(function () {
     var type = $("#typeIn").val()
     console.log(title, year, type)
     if (title != "" && year != "") {
-        var url = "http://www.omdbapi.com/?t=" + title + "&y=" + year + "&type=" + type + "&apikey=a06613a3"
+        var url = "https://www.omdbapi.com/?t=" + title + "&y=" + year + "&type=" + type + "&apikey=a06613a3"
     }
     if (title != "" && year == "") {
-        var url = "http://www.omdbapi.com/?t=" + title + "&type=" + type + "&apikey=a06613a3"
+        var url = "https://www.omdbapi.com/?t=" + title + "&type=" + type + "&apikey=a06613a3"
     }
     console.log(url)
     var xhr = new XMLHttpRequest();

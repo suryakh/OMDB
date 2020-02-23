@@ -25,6 +25,7 @@ $("#search").click(function () {
             console.log("Error Code is:" + xhr.status)
         }
     }
+    xhr.setRequestHeader('Access-Control-Allow-Origin','*')
 })
 //print the JSON output
 function prinData(data) {

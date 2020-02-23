@@ -56,9 +56,9 @@ function prinData(data) {
 }
 //animation
 $(".card").mouseenter(function () {
-    $(this).css("width", "20rem")
+    $(this).css("width", "16rem")
 }).mouseleave(function () {
-    $(this).css("width", "18rem")
+    $(this).css("width", "13rem")
 })
 $(".zoomIt").mouseenter(function () {
     $(this).css("box-shadow", "5px 10px 18px #888888")
